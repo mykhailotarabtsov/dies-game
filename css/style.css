@@ -1,0 +1,167 @@
+body{
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+body {
+	padding: 20px;
+}
+
+#dies {
+	width: 10%;
+	height: 400px;
+	border: 1px solid red;
+	font-size: 4rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	transform: translate(0, -50%)
+}
+#submit1 {
+	padding: 10px 30px;
+	background-color: rgb(150, 41, 41);
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	transform: translate(0, -50%);
+	font-size: 2rem;
+	outline: none;
+}
+
+.item_way {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	width: 400px;
+	height: 400px;
+	border: 2px solid rgba(157, 255, 0, 0.5);
+	/* margin: 100px auto; */
+	padding: 20px;
+	background-color: rgba(0, 208, 121, 0.3);
+	display: none;
+}
+.item_way .circle {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 50%;
+}
+
+.one_way {
+	justify-content: center;
+	align-items: center;
+}
+.two_way {
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.two_way .circle:first-child {
+	align-self: flex-start;
+}
+.two_way .circle:last-child {
+	align-self: flex-end;
+}
+.tree_way {
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.tree_way .circle:first-child {
+	align-self: flex-start;
+}
+.tree_way .circle:nth-of-type(2) {
+	align-self: center;
+}
+.tree_way .circle:last-child {
+	align-self: flex-end;
+}
+.four_way {
+	justify-content: space-between;
+	align-items: center;
+}
+.four_way .another_way {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+.five_way {
+	justify-content: space-between;
+	align-items: center;
+}
+.five_way .another_way {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+.six_way {
+	justify-content: space-between;
+	align-items: center;
+}
+.six_way .another_way {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
